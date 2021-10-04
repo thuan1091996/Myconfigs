@@ -1,5 +1,5 @@
 ﻿+^0:: ; pen1
-MouseClick, Left, 230, 90, 1, 0
+MouseClick, Left, 880, 100, 1, 0
 return
 
 +^1:: ; pen2
@@ -27,7 +27,7 @@ MouseClick, Left, 859, 1074, 1, 0
 return
 
 +^7:: ; Erase
-MouseClick, Left, 167, 80, 1, 0
+MouseClick, Left, 990, 113, 1, 0
 return
 
 +^8:: ; pen4
