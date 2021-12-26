@@ -1,0 +1,9 @@
+ ## Notion
+
+### Status formula
+	if(dateBetween(now(), prop("Latest Activity"), "days") < 3, "👍", if(empty(prop("Start Date")), "", if(prop("Stage") == "In Progress", "🛑", if(prop("Stage") == "Completed", "🏆", ""))))
+
+### Progress formular
+
+	if(prop("Number") == 0, (prop("Current") / prop("Target") >= 1) ? "✅" :format(slice("▓▓▓▓▓▓▓▓▓▓", 0, floor(prop("Current") / prop("Target") * 10)) + format(slice("░░░░░░░░░░", 0, ceil(10 - prop("Current") / prop("Target") * 10)) + " " + format(round(prop("Current") / prop("Target") * 100)) + (empty(prop("Current")) ? "0%" : "%"))) , (prop("Number") / prop("Target") >= 1) ? "✅" : (prop("Number") / prop("Target") >= 1) ? "✅" :format(slice("▓▓▓▓▓▓▓▓▓▓", 0, floor(prop("Number") / prop("Target") * 10)) + format(slice("░░░░░░░░░░", 0, ceil(10 - prop("Number") / prop("Target") * 10)) + " " + format(round(prop("Number") / prop("Target") * 100)) + (empty(prop("Number")) ? "0%" : "%"))))
+
