@@ -1,0 +1,18 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "f11",
+        "command": "-workbench.action.debug.start",
+        "when": "debuggersAvailable && debugState == 'inactive'"
+    },
+    {
+        "key": "ctrl+alt+t",  // you could use     "key": "ctrl+`",  if you wish
+        "command": "workbench.action.closePanel",
+        // "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+alt+t",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "!terminalFocus"
+      },
+]

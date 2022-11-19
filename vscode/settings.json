@@ -1,0 +1,90 @@
+{
+    "C_Cpp.updateChannel": "Insiders",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.largeFileOptimizations": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "gitlens.views.branches.avatars": false,
+    "gitlens.views.branches.showBranchComparison": false,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "editor.rulers": [
+        ],
+        "hexeditor.columnWidth": 16,
+        "hexeditor.showDecodedText": true,
+        "hexeditor.defaultEndianness": "little",
+        "hexeditor.inspectorType": "aside",
+        "editor.renderWhitespace": "all",
+        "json.maxItemsComputed": 15000,
+        "markdown-preview-enhanced.liveUpdate": true,
+        "git.autofetch": true,
+        "gitlens.views.branches.files.layout": "tree",
+        "makefile.makePath": "C:\\ProgramData\\chocolatey\\bin\\make",
+        "makefile.configureOnOpen": false,
+        "makefile.configureOnEdit": false,
+        "makefile.configureAfterCommand": false,
+        "makefile.saveBeforeBuildOrConfigure": false,
+        "files.eol": "\n",
+        "nrf-connect.welcome.showOnStartup": false,
+        "nrf-connect.enableTelemetry": false,
+        "nrf-connect.topdir": "${nrf-connect.sdk:2.0.2}",
+        "nrf-connect.toolchain.path": "${nrf-connect.toolchain:2.0.2}",
+        "cmake.configureOnOpen": false,
+        "files.hotExit": "off",
+        "gitlens.views.searchAndCompare.files.layout": "list",
+        "debug.onTaskErrors": "showErrors",
+        "explorer.confirmDragAndDrop": false,
+        "workbench.editorAssociations": {
+            "*.bin": "hexEditor.hexedit"
+        },
+        "gitlens.views.remotes.branches.layout": "list",
+        "gitlens.views.stashes.files.layout": "list",
+        "[python]": {
+            "editor.formatOnType": true
+        },
+        "workbench.startupEditor": "none",
+        "redhat.telemetry.enabled": false,
+        "[yaml]": {
+            "editor.defaultFormatter": "redhat.vscode-yaml"
+        },
+        "[cmake]": {
+            "editor.defaultFormatter": "cheshirekow.cmake-format"
+        },
+        "gitlens.advanced.messages": {
+            "suppressCreatePullRequestPrompt": true,
+            "suppressGitMissingWarning": true
+        },
+        "editor.snippetSuggestions": "bottom",
+        "terminal.integrated.profiles.windows": {
+            "PowerShell": {
+                "source": "PowerShell",
+                "icon": "terminal-powershell"
+            },
+            "Command Prompt": {
+                "path": [
+                    "${env:windir}\\Sysnative\\cmd.exe",
+                    "${env:windir}\\System32\\cmd.exe"
+                ],
+                "args": [],
+                "icon": "terminal-cmd"
+            },
+            "Git Bash": {
+                "source": "Git Bash"
+            },
+            "Windows PowerShell": {
+                "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+            }
+        },
+        "workbench.experimental.settingsProfiles.enabled": true,
+        "search.quickOpen.includeHistory": false,
+        "[json]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "window.zoomLevel": -1
+}
